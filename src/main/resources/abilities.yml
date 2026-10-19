@@ -1,0 +1,108 @@
+abilities:
+  invisibility:
+    day: 1
+    name: '<aqua>隐身</aqua>'
+    icon: GLASS_BOTTLE
+    type: POTION
+    duration: 2m30s
+    cooldown: 1h
+    group: concealment
+    effects: ['INVISIBILITY:0']
+    rewards: ['ENDER_PEARL:8', 'COOKED_BEEF:16']
+  speed:
+    day: 2
+    name: '<green>速度</green>'
+    icon: SUGAR
+    type: POTION
+    duration: 3m
+    cooldown: 1h
+    effects: ['SPEED:1', 'JUMP:1', 'SLOW_FALLING:0']
+    rewards: ['ARROW:32']
+  disguise:
+    day: 3
+    name: '<light_purple>伪装</light_purple>'
+    icon: NAME_TAG
+    type: DISGUISE
+    duration: 3m
+    cooldown: 1h
+    group: concealment
+    rewards: ['FIREWORK_ROCKET:8']
+  resistance:
+    day: 4
+    name: '<gray>抗性</gray>'
+    icon: IRON_CHESTPLATE
+    type: POTION
+    duration: 2m
+    cooldown: 1h
+    effects: ['DAMAGE_RESISTANCE:1', 'HEALTH_BOOST:1']
+    rewards: ['GOLDEN_APPLE:2']
+  fire:
+    day: 5
+    name: '<red>火焰</red>'
+    icon: FIRE_CHARGE
+    type: POTION
+    duration: 3m
+    cooldown: 1h
+    effects: ['FIRE_RESISTANCE:0']
+    rewards: ['FIRE_CHARGE:8', 'LAVA_BUCKET:1']
+  flight:
+    day: 6
+    name: '<white>飞行</white>'
+    icon: FEATHER
+    type: FLIGHT
+    duration: 1m
+    cooldown: 1h
+    group: flight
+    rewards: ['FIREWORK_ROCKET:16']
+  glowing:
+    day: 7
+    name: '<yellow>发光</yellow>'
+    icon: SPECTRAL_ARROW
+    type: GLOW_NEARBY
+    duration: 2m
+    cooldown: 1h
+    range: 48
+    rewards: ['SPECTRAL_ARROW:32']
+  shockwave:
+    day: 8
+    name: '<blue>冲击波</blue>'
+    icon: HEART_OF_THE_SEA
+    type: SHOCKWAVE
+    duration: 1m30s
+    cooldown: 1h
+    rewards: ['GOLDEN_APPLE:2']
+  laser:
+    day: 9
+    name: '<dark_red>激光</dark_red>'
+    icon: AMETHYST_SHARD
+    type: LASER
+    duration: 2m
+    cooldown: 1h
+    rewards: ['AMETHYST_SHARD:8']
+  creation:
+    day: 10
+    name: '<gold>造物</gold>'
+    icon: BRICKS
+    type: CREATION
+    duration: 5m
+    cooldown: 1h
+    rewards: ['OBSIDIAN:32', 'STONE:64', 'OAK_PLANKS:64']
+  regeneration:
+    day: 11
+    name: '<dark_green>再生</dark_green>'
+    icon: GHAST_TEAR
+    type: POTION
+    duration: 3m
+    cooldown: 1h
+    effects: ['REGENERATION:1', 'FAST_DIGGING:2']
+    rewards: ['ENCHANTED_GOLDEN_APPLE:1']
+  creator_stance:
+    day: 12
+    name: '<dark_purple><bold>创造姿态</bold></dark_purple>'
+    icon: NETHER_STAR
+    type: CREATOR_STANCE
+    duration: 5m
+    cooldown: 1h
+    group: flight
+    effects: ['DAMAGE_RESISTANCE:0', 'FAST_DIGGING:2', 'FIRE_RESISTANCE:0']
+    rewards: ['NETHER_STAR:1']

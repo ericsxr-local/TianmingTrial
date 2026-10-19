@@ -1,0 +1,16 @@
+name: TianmingTrial
+version: 1.0.0
+main: com.eric.xzxm.tianming.TianmingTrialPlugin
+api-version: '1.20'
+authors: [Eric_SXR]
+description: Twelve-real-day inheritable Tianming activity for Purpur.
+softdepend: [ProtocolLib]
+commands:
+  tianming:
+    aliases: [tm]
+    description: Tianming Trial command.
+    usage: /tianming help
+permissions:
+  tianming.admin:
+    description: Tianming Trial administration.
+    default: op

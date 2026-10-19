@@ -1,0 +1,17 @@
+activity:
+  day-length: 24h
+  total-days: 12
+  location-exposure-interval: 30m
+  max-concurrent-abilities: 3
+  safe-drop-owner-seconds: 180
+disguise:
+  # 可以自行删减或增加任意可生成的生物 EntityType；PLAYER 是玩家形态替身。
+  allowed-forms: [VILLAGER, ZOMBIE, HUSK, DROWNED, SKELETON, WITHER_SKELETON, CREEPER, SPIDER, CAVE_SPIDER, ENDERMAN, WITCH, PILLAGER, VINDICATOR, EVOKER, WOLF, FOX, CAT, AXOLOTL, BLAZE, GHAST, SLIME, IRON_GOLEM, SNOWMAN, PLAYER]
+hud:
+  title-fade-in-ticks: 10
+  title-stay-ticks: 50
+  title-fade-out-ticks: 10
+test:
+  day-length: 5m
+  location-exposure-interval: 1m
+  default-cooldown: 1m
